@@ -1,4 +1,4 @@
-# README for WiEvil.sh
+# WiEvil.sh
 
 **WiEvil.sh** is a comprehensive Bash script for setting up a malicious Wi-Fi hotspot on **Raspberry Pi OS (Debian Bookworm)**. It generates a **Root CA** to facilitate **certificate-based** HTTPS interception, serves that certificate via a **captive portal**, and optionally installs **mitmproxy** for full HTTPS MITM.
 

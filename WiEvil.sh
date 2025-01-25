@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #
-# EvilCAWizard.sh - A "malicious hotspot" + Root CA + captive portal + optional MITM with mitmproxy
+# WiEvil.sh - A "malicious hotspot" + Root CA + captive portal + optional MITM with mitmproxy
 # for Raspberry Pi OS (Debian Bookworm). Uses systemd-networkd, hostapd, dnsmasq,
 # Apache to serve the cert, iptables for port redirection, and optional mitmproxy auto-setup.
 #
-# Usage: sudo ./EvilCAWizard.sh
+# Usage: sudo ./WiEvil.sh
 #
 # DISCLAIMER: For educational / authorized use only. This script can create
 # a rogue AP, root CA, and MITM environment, which is illegal otherwise.

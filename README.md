@@ -138,7 +138,7 @@ You can integrate **mitmproxy** seamlessly by redirecting port 443 to its listen
 
 ---
 
-## Roadmap with Progress Bars
+## Roadmap
 
 Below is the **WiEvil** folder structure, plus progress indicators:
 

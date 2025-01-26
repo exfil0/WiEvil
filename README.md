@@ -135,3 +135,48 @@ This code is offered **as is**, for **educational** or **authorized** lab usage.
 
 ### Additional Note
 You can integrate **mitmproxy** seamlessly by redirecting port 443 to its listening port. Once the user installs `ca.crt`, all HTTPS traffic can be transparently intercepted.
+
+---
+
+## Roadmap with Progress Bars
+
+Below is the **WiEvil** folder structure, plus progress indicators:
+
+```bash
+WiEvil/
+├── README.md [100%]
+├── WiEvil.sh [100%]
+├── Integrations/ [70%]
+│   ├── WiEvilWithAlfa.sh [80%]
+│   ├── EvilTwinMode/
+│   │   ├── run-evil-twin.sh [In Progress - 50%]
+│   │   ├── deauth-helper.sh [Planned - 0%]
+│   │   └── README.md [Planned - 0%]
+│   ├── MonitorMode/
+│   │   ├── set-monitor.sh [Complete - 100%]
+│   │   └── README.md [Planned - 0%]
+│   └── Bettercap/
+│       ├── run-bettercap.sh [Planned - 0%]
+│       ├── bettercap-config.yml [Planned - 0%]
+│       └── README.md [Planned - 0%]
+├── Themes/ [60%]
+│   ├── coffee-shop/
+│   │   ├── index.html [Complete]
+│   │   ├── style.css [Complete]
+│   │   └── README.md [Planned]
+│   ├── airport/
+│   │   ├── index.html [In Progress]
+│   │   └── style.css [In Progress]
+│   └── branding-template.md [Planned]
+├── Tools/ [50%]
+│   ├── InstallAlfaAC1900.sh [Complete]
+│   ├── captive-bypass-scripts/
+│   │   ├── ... [Planned]
+│   └── README.md [Planned]
+└── docs/ [40%]
+    ├── advanced-scenarios.md [In Progress]
+    ├── captive-portal-bypass.md [Planned]
+    └── images/
+        ├── demo-WiEvil-Interception.png [Complete]
+        └── ...
+```

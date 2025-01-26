@@ -135,4 +135,3 @@ This code is offered **as is**, for **educational** or **authorized** lab usage.
 
 ### Additional Note
 You can integrate **mitmproxy** seamlessly by redirecting port 443 to its listening port. Once the user installs `ca.crt`, all HTTPS traffic can be transparently intercepted.
-

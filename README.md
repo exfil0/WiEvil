@@ -1,5 +1,7 @@
 # WiEvil.sh
 
+![WiEvil Interception Demo](https://github.com/exfil0/WiEvil/blob/main/demo-WiEvil-Interception.png)
+
 **WiEvil.sh** is a comprehensive Bash script for setting up a malicious Wi-Fi hotspot on **Raspberry Pi OS (Debian Bookworm)**. It generates a **Root CA** to facilitate **certificate-based** HTTPS interception, serves that certificate via a **captive portal**, and optionally installs **mitmproxy** for full HTTPS MITM.
 
 > **Disclaimer**: This project is for **educational / authorized** security testing only. Creating a rogue AP and intercepting traffic is **illegal** without explicit permission.
